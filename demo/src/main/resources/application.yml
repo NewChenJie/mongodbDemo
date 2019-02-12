@@ -1,0 +1,17 @@
+server:
+  port: 7123
+
+spring:
+  security:
+   user:
+     name: root
+     password: root
+  data:
+    mongodb:
+      uri: mongodb://dev.mongodb.internal.sixi.com
+      database: evaluate
+
+logging:
+  level:
+   org.springframework.data.mongodb.core: debug
+
